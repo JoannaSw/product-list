@@ -1,0 +1,22 @@
+#products {
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+
+@media all and (max-width: 992px) {
+    #product-1,
+    #product-2,
+    #product-3,
+    #product-4 {
+        width: 40%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #product-1,
+    #product-2,
+    #product-3,
+    #product-4 {
+        width: 100%;
+    }
+}
